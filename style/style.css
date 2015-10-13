@@ -1,143 +1,206 @@
 html
-{ height: 100%;}
+{
+   height: 100%;
+}
 
 *
-{ margin: 0;
-  padding: 0;}
+{
+   margin: 0;
+  padding: 0;
+}
 
 body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+{
+  font: normal .80em 'trebuchet ms', arial, sans-serif;
   background: #F0EFE2 url(background.png) repeat;
-  color: #777;}
+  color: #777;
+}
 
 p
-{ padding: 0 0 20px 0;
-  line-height: 1.7em;}
+{
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
 
 img
-{ border: 0;}
+{
+  border: 0;
+}
 
 h1, h2, h3, h4, h5, h6
-{ font: normal 175% 'century gothic', arial, sans-serif;
+{
+  font: normal 175% 'century gothic', arial, sans-serif;
   color: #43423F;
   margin: 0 0 15px 0;
-  padding: 15px 0 5px 0;}
+  padding: 15px 0 5px 0;
+}
 
 h2
-{ font: normal 175% 'century gothic', arial, sans-serif;
-  color: #1293EE;}
+{
+  font: normal 175% 'century gothic', arial, sans-serif;
+  color: #1293EE;
+}
 
 h4, h5, h6
-{ margin: 0;
+{
+  margin: 0;
   padding: 0 0 5px 0;
   font: normal 120% arial, sans-serif;
-  color: #1293EE;}
+  color: #1293EE;
+}
 
 h5, h6
 { font: italic 95% arial, sans-serif;
   padding: 0 0 15px 0;
-  color: #000;}
+  color: #000;
+}
 
 h6
-{ color: #362C20;}
+{
+  color: #362C20;
+}
 
 a, a:hover
-{ outline: none;
+{
+  outline: none;
   text-decoration: underline;
-  color: #FD5BFF;}
+  color: #FD5BFF;
+}
 
 a:hover
-{ text-decoration: none;}
+{
+  text-decoration: none;
+}
 
 .left
-{ float: left;
+{
+  float: left;
   width: auto;
-  margin-right: 10px;}
+  margin-right: 10px;
+}
 
 .right
-{ float: right;
+{
+  float: right;
   width: auto;
-  margin-left: 10px;}
+  margin-left: 10px;
+}
 
 .center
-{ display: block;
+{
+  display: block;
   text-align: center;
-  margin: 20px auto;}
+  margin: 20px auto;
+}
 
 blockquote
-{ margin: 20px 0;
+{
+  margin: 20px 0;
   padding: 10px 20px 0 20px;
   border: 1px solid #E5E5DB;
   background: #FFF;}
 
 ul
-{ margin: 2px 0 22px 17px;}
+{
+  margin: 2px 0 22px 17px;
+}
 
 ul li
-{ list-style-type: circle;
+{
+  list-style-type: circle;
   margin: 0 0 6px 0;
-  padding: 0 0 4px 5px;}
+  padding: 0 0 4px 5px;
+}
 
 ol
-{ margin: 8px 0 22px 20px;}
+{
+  margin: 8px 0 22px 20px;
+}
 
 ol li
-{ margin: 0 0 11px 0;}
+{
+  margin: 0 0 11px 0;
+}
 
 #main, #logo, #menubar, #site_content, #footer
-{ margin-left: auto;
-  margin-right: auto;}
+{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #header
-{ background: #1D1D1D url(header.png) repeat;
-  height: 240px;}
+{
+  background: #1D1D1D url(header.png) ;
+  height: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 #logo
-{ width: 825px;
+{
+  width: 825px;
   position: relative;
-  height: 168px;}
+  height: 168px;
+}
 
 #logo #logo_text
-{ position: absolute;
+{
+  position: absolute;
   top: 20px;
-  left: 0;}
+  left: 0;
+}
 
 #logo h1, #logo h2
-{ font: normal 300% 'century gothic', arial, sans-serif;
+{
+  font: normal 300% 'century gothic', arial, sans-serif;
   border-bottom: 0;
   text-transform: none;
-  margin: 0;}
+  margin: 0;
+}
 
 #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover
-{ padding: 22px 0 0 0;
+{
+  padding: 22px 0 0 0;
   color: #FFF;
   letter-spacing: 0.1em;
-  text-decoration: none;}
+  text-decoration: none;
+}
 
 #logo_text h1 a .logo_colour
-{ color: #1293EE;}
+{
+  color: #1293EE;
+}
 
 #logo_text h2
-{ font-size: 100%;
+{
+  font-size: 100%;
   padding: 4px 0 0 0;
-  color: #DDD;}
+  color: #DDD;
+}
 
 #menubar
-{ width: 900px;
+{
+   width: 900px;
   height: 72px;
   padding: 0;
-  background: #1293EE;}
+  background: #1293EE;
+}
 
 ul#menu, ul#menu li
-{ float: left;
+{
+  float: left;
   margin: 0;
-  padding: 0;}
+  padding: 0;
+}
 
 ul#menu li
-{ list-style: none;}
+{
+  list-style: none;
+}
 
 ul#menu li a
-{ letter-spacing: 0.1em;
+{
+  letter-spacing: 0.1em;
   font: normal 100% arial, sans-serif;
   display: block;
   float: left;
@@ -147,59 +210,82 @@ ul#menu li a
   color: #FFF;
   text-transform: uppercase;
   text-decoration: none;
-  background: transparent;}
+  background: transparent;
+}
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #FFF;
-  background: #0D66A5;}
+{
+  color: #FFF;
+  background: #0D66A5;
+}
 
 #site_content
-{ width: 837px;
+{
+  width: 837px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 20px 24px 20px 37px;
-  background: #FFF;}
+  background: #FFF;
+}
 
 .sidebar
-{ float: right;
+{
+  float: right;
   width: 190px;
-  padding: 0 15px 20px 15px;}
+  padding: 0 15px 20px 15px;
+}
 
 .sidebar ul
-{ width: 178px;
+{
+  width: 178px;
   padding: 4px 0 0 0;
-  margin: 4px 0 30px 0;}
+  margin: 4px 0 30px 0;
+}
 
 .sidebar li
-{ list-style: none;
-  padding: 0 0 7px 0; }
+{
+  list-style: none;
+  padding: 0 0 7px 0;
+}
 
 .sidebar li a, .sidebar li a:hover
-{ padding: 0 0 0 40px;
+{
+  padding: 0 0 0 40px;
   display: block;
-  background: transparent url(link.png) no-repeat left center;}
+  background: transparent url(link.png) no-repeat left center;
+}
 
 .sidebar li a.selected
-{ color: #444;
-  text-decoration: none;}
+{
+  color: #444;
+  text-decoration: none;
+}
 
 #content
-{ text-align: left;
+{
+  text-align: left;
   width: 595px;
-  padding: 0;}
+  padding: 0;
+}
+
 
 #content ul
-{ margin: 2px 0 22px 0px;}
+{
+  margin: 2px 0 22px 0px;
+}
 
 #content ul li
-{ list-style-type: none;
+{
+  list-style-type: none;
   background: url(bullet.png) no-repeat;
   margin: 0 0 6px 0;
   padding: 0 0 4px 25px;
-  line-height: 1.5em;}
+  line-height: 1.5em;
+}
 
 #footer
-{ width: 900px;
+{
+   width: 900px;
   font: normal 100% 'lucida sans unicode', arial, sans-serif;
   height: 33px;
   padding: 8px 0 8px 0;
@@ -207,50 +293,66 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #1293EE;
   color: #FFF;
   text-transform: uppercase;
-  letter-spacing: 0.1em;}
+  letter-spacing: 0.1em;
+}
 
 #footer a
 { color: #FFF;
   text-decoration: none;}
 
 #footer a:hover
-{ color: #FFF;
-  text-decoration: underline;}
+{
+  color: #FFF;
+  text-decoration: underline;
+}
 
 .search
-{ color: #5D5D5D;
+{
+  color: #5D5D5D;
   background-color: white;
   border: 1px solid #BBB;
   width: 134px;
   padding: 4px;
-  font: 100% arial, sans-serif;}
+  font: 100% arial, sans-serif;
+}
 
 #colours
-{ height: 0px;
+{
+  height: 0px;
   text-align: right;
-  padding: 66px 16px 0px 300px;}
+  padding: 66px 16px 0px 300px;
+}
 
 .form_settings
-{ margin: 15px 0 0 0;}
+{
+  margin: 15px 0 0 0;
+}
 
 .form_settings p
-{ padding: 0 0 4px 0;}
+{
+  padding: 0 0 4px 0;
+}
 
 .form_settings span
-{ float: left;
+{
+  float: left;
   width: 200px;
-  text-align: left;}
+  text-align: left;
+}
 
 .form_settings input, .form_settings textarea
-{ padding: 5px;
+{
+  padding: 5px;
   width: 299px;
   font: 100% arial;
   border: 1px solid #E5E5DB;
   background: #FFF;
-  color: #47433F;}
+  color: #47433F;
+}
 
 .form_settings .submit
-{ font: 100% arial;
+{
+  font: 100% arial;
   border: 1px solid;
   width: 99px;
   margin: 0 0 0 212px;
@@ -258,39 +360,54 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 2px 0 3px 0;
   cursor: pointer;
   background: #1293EE;
-  color: #FFF;}
+  color: #FFF;
+}
 
 .form_settings textarea, .form_settings select
-{ font: 100% arial;
-  width: 299px;}
+{
+  font: 100% arial;
+  width: 299px;
+}
 
 .form_settings select
-{ width: 310px;}
+{
+  width: 310px;
+}
 
 .form_settings .checkbox
-{ margin: 4px 0;
+{
+  margin: 4px 0;
   padding: 0;
   width: 14px;
   border: 0;
-  background: none;}
+  background: none;
+}
 
 .separator
-{ width: 100%;
+{
+  width: 100%;
   height: 0;
   border-top: 1px solid #D9D5CF;
   border-bottom: 1px solid #FFF;
-  margin: 0 0 20px 0;}
+  margin: 0 0 20px 0;
+}
 
 table
-{ margin: 10px 0 30px 0;}
+{
+  margin: 10px 0 30px 0;
+}
 
 table tr th, table tr td
-{ background: #3B3B3B;
+{
+  background: #3B3B3B;
   color: #FFF;
   padding: 7px 4px;
-  text-align: left;}
+  text-align: left;
+}
 
 table tr td
-{ background: #F0EFE2;
+{
+  background: #F0EFE2;
   color: #47433F;
-  border-top: 1px solid #FFF;}
+  border-top: 1px solid #FFF;
+}
