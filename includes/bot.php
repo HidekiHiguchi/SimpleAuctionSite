@@ -1,7 +1,5 @@
 <div id="footer">
-  <p>Emerson Hideki Higuchi - 41419634</p>
-  <p>juhee Lee - XXXXXXXXX</p>
-  <img src="style/created-with-vim.gif">
+  <p>Emerson Hideki Higuchi - 41419634 | juhee Lee - XXXXXXXXX</p>
 </div>
 </div>
 </body>
