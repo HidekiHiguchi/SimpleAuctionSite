@@ -11,7 +11,7 @@
 
 <body>
   <div id="main">
-    <div id="header">
+    <header>
       <div id="logo">
         <div id="logo_text">
           <!-- cor do logo-->
@@ -28,4 +28,4 @@
           <li><a href="about.php">Sobre</a></li>
         </ul>
       </div>
-    </div>
+    </header>
