@@ -1,8 +1,8 @@
 <script type="text/javascript">
  function checkValue() {
 
- var username = document.frm.nome.value;
- var sobre = document.frm.sobrenome.value;
+ var username = document.frm.name.value;
+ var sobre = document.frm.lastName.value;
  var senha = document.frm.senha.value;
  var confirmar = document.frm.confirmarSenha.value;
  var useremail = document.frm.email.value;
@@ -58,8 +58,8 @@
  // 올바른 양식이 입력된 것을 확인했다.
  // 현재 양식을 다른 페이지로 제출(값 전달)
 
- document.frm.action="test.html";
- document.frm.method="get";
+ document.frm.action="connection/welcome.php";
+ document.frm.method="post";
  document.frm.submit();
 }
 </script>
