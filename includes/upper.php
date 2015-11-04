@@ -5,7 +5,7 @@
   <title>Simple Auction House</title>
   <meta name="description" content="Simple LightWeight Auction Site" />
   <meta name="Leilão" content="Auction Site, Auction House" />
-  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
 </head>
 
