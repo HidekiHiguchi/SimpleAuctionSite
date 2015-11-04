@@ -1,6 +1,6 @@
 <?php include 'scripts/formScript.php';?>
 
-<form name="frm" method="post" action="connection/welcome.php">
+<form name="frm" method="post" action="connection/insert.php">
   <table>
    <tr>
     <th>Nome</th>

@@ -23,7 +23,7 @@
           <!-- "selected deve ficar na home."-->
           <li class="selected"><a href="index.php">Home</a></li>
           <li><a href="category.php">Categorias</a></li>
-          <li><a href="register.php">login e cadastro</a></li>
+          <li><a href="register.php">CRUD + Formulario</a></li>
           <li><a href="contact.php">Contato</a></li>
           <li><a href="about.php">Sobre</a></li>
         </ul>
