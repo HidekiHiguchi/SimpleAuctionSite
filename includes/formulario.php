@@ -1,4 +1,4 @@
-
+<?php include 'script/form.js';?>
 <form name="frm" method="get" action="test.html">
   <table>
    <tr>
