@@ -228,10 +228,12 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #FFF;
 }
 
+
+
 .sidebar
 {
   float: right;
-  width: 190px;
+  width: 230px;
   padding: 0 15px 20px 15px;
 }
 
@@ -259,6 +261,11 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 {
   color: #444;
   text-decoration: none;
+}
+
+.sidebar form table
+{
+  margin: auto;
 }
 
 #content

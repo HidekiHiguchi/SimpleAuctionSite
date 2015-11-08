@@ -12,6 +12,7 @@
 <body>
   <div id="main">
     <header>
+
       <div id="logo">
         <div id="logo_text">
           <!-- cor do logo-->
