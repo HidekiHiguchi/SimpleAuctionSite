@@ -8,6 +8,13 @@
       <th>Password</th>
       <td><input type="password" name="pass" ></td>
       <td><input type="submit" value="Entrar"></td>
-     </tr>
+      </tr>
+      <tr>
+        <td>
+          <p>Manter?</p>
+        <input type="checkbox" name="keepL">
+      </td>
+    </tr>
+
   </table>
   </form>

@@ -1,4 +1,7 @@
-
+<?php
+// Start the session
+session_start();
+?>
 <?php
 
 include "connect.php";
@@ -10,7 +13,11 @@ if($result){
     while($row = mysqli_fetch_array($result) ){
 
         if($row["password"] == $_POST["pass"]) {
-          setcookie("user", $_POST['userc'], time() + (86400 * 30), "/"); // 86400 = 1 day
+          if(isset($_POST['keepL'])) {
+            setcookie("user", $_POST['userc'], time() + (86400 * 30), "/"); // 86400 = 1 day
+          }
+          $_SESSION['userS'] = $emaill;
+
           header("Location: http://localhost/SimpleAuctionSite/");
           exit;
         }
