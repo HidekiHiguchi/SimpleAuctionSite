@@ -14,11 +14,12 @@ if($result){
 
         if($row["password"] == $_POST["pass"]) {
           if(isset($_POST['keepL'])) {
-            setcookie("user", $_POST['userc'], time() + (86400 * 30), "/"); // 86400 = 1 day
+            setcookie("user", $_POST['userc'], time() + (86400 * 30), "/"); // 86400 = 1 dia
           }
-          $_SESSION['userS'] = $emaill;
 
-          header("Location: http://localhost/SimpleAuctionSite/");
+          $_SESSION['userS'] = $_POST["pass"];
+
+          header("Location: ../"); // volta 1 diretorio
           exit;
         }
     }
