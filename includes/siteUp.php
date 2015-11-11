@@ -5,9 +5,10 @@
 
       <div id="content">
         <?php
-        if(isset($_COOKIE['user']))
+        if(isset($_COOKIE['user'])){
           $_SESSION['userS'] = $_COOKIE['user']; // se já existir cookie ele passa para a Session
-
+          $_SESSION['uid'] = $_COOKIE['userid'];
+        }
 
         if(!isset($_SESSION['userS'])) // se usuario estiver logado mostra a barra dele, se não estver
           include 'includes/login.php';

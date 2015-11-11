@@ -1,8 +1,10 @@
 <?php include 'includes/siteUp.php';?>
 <!-- all content bellow-->
-<h1> Verificar usuario e senha para acessar o banco no mackenzie em: connection/connect.php<h1>
+
 <?php include 'formulario.php';?>
 <br>
+
+<h1> CRUD da segunda entrega quando não havia SESSION nem COOKIE  <h1><br>
 <h3>CRUD de Usuario</h3>
 <form action="crud.php" method="post">
   <input type="radio" name="crud1" value="C" checked="checked" id="C">  C<br>

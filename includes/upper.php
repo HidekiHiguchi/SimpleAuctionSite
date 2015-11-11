@@ -32,5 +32,7 @@ session_start();
           <li><a href="contact.php">Contato</a></li>
           <li><a href="about.php">Sobre</a></li>
         </ul>
+        <?php if(isset($_SESSION['userS'])) echo "<h6> welcome ".$_SESSION['userS']."</h6>"; //cheap method to display Username(made by myself)?>
       </div>
+
     </header>

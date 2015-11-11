@@ -1,5 +1,5 @@
 <?php include 'includes/siteUp.php';?>
 <!-- all content bellow-->
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<?php include 'connection/readUser.php';?>
 <!-- content end here -->
 <?php include 'includes/siteDown.php';?>

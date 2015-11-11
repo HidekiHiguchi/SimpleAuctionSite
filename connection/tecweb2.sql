@@ -39,8 +39,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`user_id`, `name`, `email`, `password`, `sexo`) VALUES
-(1, 'Emerson Hideki Higuchi', 'hidkei-higuchi@asdas.com', 'minhasenha', 'masculino'),
-(4, 'Juhee Lee', 'juhee@lee.com', 'juhee', 'feminino');
+(1, 'Emerson Hideki Higuchi', 'hideki@higuchi', 'pass', 'masculino'),
+(2, 'Juhee Lee', 'juhee@lee.com', 'juhee', 'feminino');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +60,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT for table `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

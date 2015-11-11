@@ -7,9 +7,18 @@ session_start();
 include "connect.php";
 $emaill = $_POST['userc'];
 
-$result = mysqli_query($conexao, "SELECT name,email,password from usuarios where email='$emaill'") or die("error ".mysqli_error($conexao));
+$result = mysqli_query($conexao, "SELECT user_id from usuarios where email='$emaill'") or die("error ".mysqli_error($conexao));
 
 if($result){
+
+  while ($idu = mysqli_fetch_array($result)) {
+    $_SESSION['uid'] = $idu['user_id'];
+    setcookie("userid", $idu['user_id'], time() + (86400 * 30), "/"); // 86400 = 1 dia
+  }
+
+  $result = mysqli_query($conexao, "SELECT password from usuarios where email='$emaill'") or die("error ".mysqli_error($conexao));
+
+
     while($row = mysqli_fetch_array($result) ){
 
         if($row["password"] == $_POST["pass"]) {
