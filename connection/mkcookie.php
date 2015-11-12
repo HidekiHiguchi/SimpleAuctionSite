@@ -26,7 +26,7 @@ if($result){
             setcookie("user", $_POST['userc'], time() + (86400 * 30), "/"); // 86400 = 1 dia
           }
 
-          $_SESSION['userS'] = $_POST["pass"];
+          $_SESSION['userS'] = $_POST["userc"];
 
           header("Location: ../"); // volta 1 diretorio
           exit;
